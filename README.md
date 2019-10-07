@@ -1,5 +1,5 @@
 # RPIasBootFirmwareProgrammer
-Develop a Programming Jig to use in production
+Programming Jig for production use
 
 This code is use in programming multiple Atmega Chips used in production line.
 It uses the ICSP of microntroller in order to bootload and burn firmware to several chips.
