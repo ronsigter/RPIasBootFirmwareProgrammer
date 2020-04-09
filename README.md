@@ -10,14 +10,15 @@ Each Jig ID utilizes its own MOSI-MISO-SCK pins to eliminate pulse contention. E
 
 A config file for the python program to read is also created
 
-~USAGE:
-SYNTAX: sudo python [program_name] [jig_config_file] [number_of_jigs]
+### USAGE:
+SYNTAX: `sudo python [program_name] [jig_config_file] [number_of_jigs]`
 
-~INSIDE CONFIG FILE:
+INSIDE CONFIG FILE:
+```bash
 Format:
   [JIG_#]
   Bootloader_HEX_file     -> Type of bootloader environment [Arduino pro mini, Uno, etc]
   Selected_Chip           -> type of Chip used [Atmega328p alike] 
   Firmware_HEX_file       -> Firmware you created using Arduino IDE
-  
+```
  
